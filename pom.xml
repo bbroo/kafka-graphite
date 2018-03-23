@@ -173,7 +173,6 @@
           <artifact>${project.build.directory}/${project.artifactId}-${project.version}.jar</artifact>
           <overwriteArtifact>true</overwriteArtifact>
           <prerelease>true</prerelease>
-          <draft>true</draft>
           <description>Release with binary</description>
           <releaseName>${project.artifactId} ${project.version}</releaseName>
           <tag>${project.version}</tag>
